@@ -1,6 +1,8 @@
 Title: About
 
-I'm a 20-something software and data engineer from Montreal, Canada now living near Shanghai, China.
+I'm a 20-something big data engineer from Montreal, Canada now living near Shanghai, China.
+I am currently working for [PatSnap](http://patsnap.com/), a SaaS company disrupting the innovation industry.
 
-I am currently working for PatSnap, a SaaS company disrupting the innovation industry. We apply big data, data science, machine learning and NLP to our huge datasets and corpuses with the goal of constantly bringing more knowledge and value to our users.
+I dab in machine learning, data science and natural language processing to extract meaningful information from enormous amount of text data in multiple languages, and I also design robust and scalable data processing pipelines and APIs. I am constantly on the lookout for new techniques and best practices to improve my craft.
 
+My tools of choice? Python, Jupyter, MongoDB and AWS.
