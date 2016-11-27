@@ -1,6 +1,8 @@
 Title: Hello World!
 Date: 2016-11-27 12:00
+Tags: misc
 Category: Misc
+Slug: hello-world
 
 Hello guys! This is my new page, resurrected from the old mattfortier.com. Unfortunately had to move domain as the price for the .com was a bit too steep for my taste, but I digress.
 
