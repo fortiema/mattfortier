@@ -1,0 +1,9 @@
+[submodule "void"]
+	path = void
+	url = git@github.com:fortiema/void.git
+[submodule "pelican-plugins"]
+	path = pelican-plugins
+	url = git@github.com:fortiema/pelican-plugins.git
+[submodule "pelican_dynamic"]
+	path = pelican_dynamic
+	url = git@github.com:fortiema/pelican_dynamic.git
