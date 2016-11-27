@@ -52,9 +52,10 @@ NAVIGATION = [
     {'site': 'linkedin', 'user': '', 'url': 'http://linkedin.com/in/mattfortier-patsnap'},
 ]
 
-TWITTER_NAME = ""
+TWITTER_NAME = "mattfortier"
 TWITTER_CARDS = True
 FACEBOOK_SHARE = True
+HACKER_NEWS_SHARE = True
 
 # Other
 MAILCHIMP = False
