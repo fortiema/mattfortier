@@ -40,7 +40,7 @@ PLUGINS = ['assets', 'liquid_tags.notebook', 'pelican_dynamic', 'render_math']
 
 CODE_DIR = 'code'
 NOTEBOOK_DIR = 'notebooks'
-EXTRA_HEADER = open('_nb_header.html').read().decode('utf-8')
+EXTRA_HEADER = open('_nb_header.html', encoding='utf-8').read()
 
 #STATIC_PATHS = ['images', 'code', 'notebooks', 'extra', 'data']
 #EXTRA_PATH_METADATA = {'extra/robots.txt': {'path': 'robots.txt'},}
