@@ -77,8 +77,8 @@ print sess.run(c)
 
 If something is wrong, you'll see an output resembling this:
 
-![Wrong Output]({attach}images/nvidia-cuda-tensorflow-fedora-guide-1.jpg)
+![Wrong Output]({attach}/images/nvidia-cuda-tensorflow-fedora-guide-1.png)
 
 Otherwise the computation will run its course on your GPU:
 
-![Good Output]({attach}images/nvidia-cuda-tensorflow-fedora-guide-2.jpg)
+![Good Output]({attach}/images/nvidia-cuda-tensorflow-fedora-guide-2.png)
