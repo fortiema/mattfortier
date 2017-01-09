@@ -4,11 +4,11 @@ Tags: guide gpu cuda fedora tensorflow
 Category: Guides
 Slug: nvidia-cuda-tensorflow-fedora-guide
 
-2017 is upon us and I have the feeling many of you have taken the resolution this year to finally get your feet wet with Deep Learning and AI. You've bought yourself a nice Nvidia Pascal GPU and are getting ready to put that badboy to good use. I fall in this category, and went through the relatively small trouble of installing my new GTX1060 on a fresh Fedora 25 build.
+2017 is upon us and I have the feeling many of you have taken the resolution this year to finally get your feet wet with Deep Learning and AI. You've bought yourself a nice Nvidia Pascal GPU and are getting ready to put that beast to good use. I fall in this category, and went through the relatively small trouble of installing my new GTX1060 on a fresh Fedora 25 build.
 
 If you already have a RHEL-based setup, or are maybe looking at the new Fedora 25 release as a potential good host, follow along for a smooth experience in getting everything ready.
 
-## Negativo17's fedora-nvidia Repo
+## 1. Add Negativo17's fedora-nvidia Repo
 
 Nvidia's official repo is a little bit out of touch with current developements in the Red Hat distribution world, and is a little bit messy. This is where [negativo17 repo](http://negativo17.org/nvidia-driver/), with its excellent repackaging of Nvidia librairies, comes into play and makes everything much simpler. Let's add the repo to our installation:
 
@@ -22,9 +22,9 @@ _RHEL/CentOS_
 
 Fedora 25 has support for the packages directly in Gnome Software, so this can make your life even easier if you wish to go that route.
 
-## Packages Installation
+## 2. Install Necessary Packages
 
-One of the big diffenrences in Negativo17's repository is that packages and subpackages are better separated. This means you have more granular control over which librairies/drivers you install. For more info you can refer to the repository explanation page [here](http://negativo17.org/nvidia-driver/).
+One of the big diffenrences in Negativo17's repository is that packages and subpackages are better separated. This means you have more granular control over which librairies/drivers you install. For more info, and if you have specefic needs in terms of packages you want/need, you can refer to the repository explanation page [here](http://negativo17.org/nvidia-driver/).
 
 Although you could install every package in a single command, I prefer to install the CUDA libraries first, and then install all the drivers and utilities.
 
@@ -44,7 +44,7 @@ _RHEL/CentOS_
 
 Once done, reboot your machine.
 
-## Tensorflow GPU Setup
+## 3. Steup Tensorflow GPU
 
 > Tensorflow v0.12.1 was the latest version at the time of writing this post
 
@@ -61,7 +61,7 @@ Install using pip (you can drop the '--upgrade' if it's a fresh install):
 
 `pip install --upgrade $TF_BINARY_URL`
 
-## Test Your Setup
+## 4. Test Your Setup
 
 You're ready to test! Let's write a simple matrix multiplication script and execute it. I suggest you run it line-by-line in your Python REPL to benefit from the verbrosity.
 
@@ -116,3 +116,5 @@ I tensorflow/core/common_runtime/simple_placer.cc:827] a: (Const)/job:localhost/
 [[ 22.  28.]
  [ 49.  64.]]
 ```
+
+That's it, you're ready to put all these Watts to good use!
