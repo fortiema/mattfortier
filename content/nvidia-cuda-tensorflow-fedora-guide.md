@@ -35,17 +35,17 @@ Although you could install every package in a single command, I prefer to instal
 _Fedora_
 
 ```python
-dnf install cuda cuda-devel cuda-cudnn*
+dnf install cuda-devel cuda-cudnn-devel
 
 dnf install nvidia-settings kernel-devel dkms-nvidia vulkan.i686 nvidia-driver-libs.i686 nvidia-driver-cuda
 ```
 
 _RHEL/CentOS_
 
-> RHEL and CentOS currently do not offer Vulkan support. This could change in the future.
+> RHEL and CentOS currently do not offer Vulkan support. This could change in the future and is only relevant if you plan to run games that use this technology.
 
 ```python
-yum install cuda cuda-devel cuda-cudnn*
+yum install cuda-devel cuda-cudnn-devel
 
 yum install nvidia-settings kernel-devel dkms-nvidia nvidia-driver-libs.i686 nvidia-driver-cuda
 ```
