@@ -47,12 +47,12 @@ EXTRA_HEADER = open('_nb_header.html', encoding='utf-8').read()
 
 NAVIGATION = [
     # You probably want to fill these in so they point to your user pages
-    {'site': 'twitter', 'user': '', 'url': 'https://twitter.com/mattfortier'},
+    {'site': 'twitter', 'user': '', 'url': 'https://twitter.com/mathieufortier'},
     {'site': 'github', 'user': '', 'url': 'https://github.com/fortiema'},
     {'site': 'linkedin', 'user': '', 'url': 'http://linkedin.com/in/mattfortier-patsnap'},
 ]
 
-TWITTER_NAME = "mattfortier"
+TWITTER_NAME = "mathieufortier"
 TWITTER_CARDS = True
 FACEBOOK_SHARE = True
 HACKER_NEWS_SHARE = True
