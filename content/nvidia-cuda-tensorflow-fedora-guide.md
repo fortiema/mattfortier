@@ -52,11 +52,11 @@ yum install nvidia-settings kernel-devel dkms-nvidia nvidia-driver-libs.i686 nvi
 
 Once done, reboot your machine.
 
-## 3. Steup Tensorflow GPU
+## 3. Setup Tensorflow-GPU
 
 > Tensorflow v0.12.1 was the latest version at the time of writing this post
 
-You now need to install the GPU-active version of Tensorflow. I recommend you install TF in a virtualenv for convenience and safety so go ahead and do that. Once activated you can proceed with the install:
+You now need to install the version of Tensorflow with GPU support. I recommend you install TF in a virtualenv for convenience and safety so go ahead and do that. Once activated you can proceed with the install:
 
 ```python
 # Store the TF wheel URL into a var for convenience
