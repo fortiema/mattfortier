@@ -14,13 +14,13 @@ Nvidia's official repo is a little bit out of touch with current developements i
 
 _Fedora_
 
-```
+```python
 dnf config-manager --add-repo=http://negativo17.org/repos/fedora-nvidia.repo
 ```
 
 _RHEL/CentOS_
 
-```
+```python
 yum-config-manager --add-repo=http://negativo17.org/repos/epel-nvidia.repo
 ```
 
@@ -28,13 +28,13 @@ Fedora 25 has support for the packages directly in Gnome Software, so this can m
 
 ## 2. Install Necessary Packages
 
-One of the big diffenrences in Negativo17's repository is that packages and subpackages are better separated. This means you have more granular control over which librairies/drivers you install. For more info, and if you have specefic needs in terms of packages you want/need, you can refer to the repository explanation page [here](http://negativo17.org/nvidia-driver/).
+One of the big diffenrences in Negativo17's repository is that packages and subpackages are better separated. This means you have more granular control over which librairies/drivers you install. For more info, and if you have specefic needs in terms of packages you want/need, you can refer to the [repository explanation page](http://negativo17.org/nvidia-driver/).
 
 Although you could install every package in a single command, I prefer to install the CUDA libraries first, and then install all the drivers and utilities.
 
 _Fedora_
 
-```
+```python
 dnf install cuda cuda-devel cuda-cudnn*
 
 dnf install nvidia-settings kernel-devel dkms-nvidia vulkan.i686 nvidia-driver-libs.i686 nvidia-driver-cuda
@@ -44,7 +44,7 @@ _RHEL/CentOS_
 
 > RHEL and CentOS currently do not offer Vulkan support. This could change in the future.
 
-```
+```python
 yum install cuda cuda-devel cuda-cudnn*
 
 yum install nvidia-settings kernel-devel dkms-nvidia nvidia-driver-libs.i686 nvidia-driver-cuda
@@ -58,7 +58,7 @@ Once done, reboot your machine.
 
 You now need to install the GPU-active version of Tensorflow. I recommend you install TF in a virtualenv for convenience and safety so go ahead and do that. Once activated you can proceed with the install:
 
-```
+```python
 # Store the TF wheel URL into a var for convenience
 export TF_BINARY_URL=https://storage.googleapis.com/tensorflow/linux/gpu/tensorflow_gpu-0.12.1-cp27-none-linux_x86_64.whl
 
@@ -82,7 +82,7 @@ print sess.run(c)
 
 If everything is right, you'll see an output resembling this one:
 
-```
+```python
 Python 2.7.13 (default, Jan  8 2017, 15:53:39)
 [GCC 6.3.1 20161221 (Red Hat 6.3.1-1)] on linux2
 Type "help", "copyright", "credits" or "license" for more information.
