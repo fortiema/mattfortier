@@ -14,11 +14,15 @@ Nvidia's official repo is a little bit out of touch with current developements i
 
 _Fedora_
 
-`dnf config-manager --add-repo=http://negativo17.org/repos/fedora-nvidia.repo`
+```
+dnf config-manager --add-repo=http://negativo17.org/repos/fedora-nvidia.repo
+```
 
 _RHEL/CentOS_
 
-`yum-config-manager --add-repo=http://negativo17.org/repos/epel-nvidia.repo`
+```
+yum-config-manager --add-repo=http://negativo17.org/repos/epel-nvidia.repo
+```
 
 Fedora 25 has support for the packages directly in Gnome Software, so this can make your life even easier if you wish to go that route.
 
@@ -30,7 +34,7 @@ Although you could install every package in a single command, I prefer to instal
 
 _Fedora_
 
-```bash
+```
 dnf install cuda cuda-devel cuda-cudnn*
 
 dnf install nvidia-settings kernel-devel dkms-nvidia vulkan.i686 nvidia-driver-libs.i686 nvidia-driver-cuda
@@ -40,7 +44,7 @@ _RHEL/CentOS_
 
 > RHEL and CentOS currently do not offer Vulkan support. This could change in the future.
 
-```bash
+```
 yum install cuda cuda-devel cuda-cudnn*
 
 yum install nvidia-settings kernel-devel dkms-nvidia nvidia-driver-libs.i686 nvidia-driver-cuda
@@ -54,7 +58,7 @@ Once done, reboot your machine.
 
 You now need to install the GPU-active version of Tensorflow. I recommend you install TF in a virtualenv for convenience and safety so go ahead and do that. Once activated you can proceed with the install:
 
-```bash
+```
 # Store the TF wheel URL into a var for convenience
 export TF_BINARY_URL=https://storage.googleapis.com/tensorflow/linux/gpu/tensorflow_gpu-0.12.1-cp27-none-linux_x86_64.whl
 
