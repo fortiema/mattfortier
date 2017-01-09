@@ -30,17 +30,21 @@ Although you could install every package in a single command, I prefer to instal
 
 _Fedora_
 
-`dnf install cuda cuda-devel cuda-cudnn*`
+```bash
+dnf install cuda cuda-devel cuda-cudnn*
 
-`dnf install nvidia-settings kernel-devel dkms-nvidia vulkan.i686 nvidia-driver-libs.i686 nvidia-driver-cuda`
+dnf install nvidia-settings kernel-devel dkms-nvidia vulkan.i686 nvidia-driver-libs.i686 nvidia-driver-cuda
+```
 
 _RHEL/CentOS_
 
 > RHEL and CentOS currently do not offer Vulkan support. This could change in the future.
 
-`yum install cuda cuda-devel cuda-cudnn*`
+```bash
+yum install cuda cuda-devel cuda-cudnn*
 
-`yum install nvidia-settings kernel-devel dkms-nvidia nvidia-driver-libs.i686 nvidia-driver-cuda`
+yum install nvidia-settings kernel-devel dkms-nvidia nvidia-driver-libs.i686 nvidia-driver-cuda
+```
 
 Once done, reboot your machine.
 
@@ -48,18 +52,15 @@ Once done, reboot your machine.
 
 > Tensorflow v0.12.1 was the latest version at the time of writing this post
 
-You now need to install the GPU-active version of Tensorflow.
+You now need to install the GPU-active version of Tensorflow. I recommend you install TF in a virtualenv for convenience and safety so go ahead and do that. Once activated you can proceed with the install:
 
-I recommend you install TF in a virtualenv for convenience and safety.
-Go ahead and do that, once activated you can proceed with the install.
+```bash
+# Store the TF wheel URL into a var for convenience
+export TF_BINARY_URL=https://storage.googleapis.com/tensorflow/linux/gpu/tensorflow_gpu-0.12.1-cp27-none-linux_x86_64.whl
 
-Store the TF wheel URL into a var for convenience:
-
-`export TF_BINARY_URL=https://storage.googleapis.com/tensorflow/linux/gpu/tensorflow_gpu-0.12.1-cp27-none-linux_x86_64.whl`
-
-Install using pip (you can drop the '--upgrade' if it's a fresh install):
-
-`pip install --upgrade $TF_BINARY_URL`
+#Install using pip (you can drop the '--upgrade' if it's a fresh install):
+pip install --upgrade $TF_BINARY_URL
+```
 
 ## 4. Test Your Setup
 
