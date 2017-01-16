@@ -59,8 +59,10 @@ Once done, reboot your machine.
 You now need to install the version of Tensorflow with GPU support. I recommend you install TF in a virtualenv for convenience and safety so go ahead and do that. Once activated you can proceed with the install:
 
 ```python
-# Store the TF wheel URL into a var for convenience
+# Python 2.7
 export TF_BINARY_URL=https://storage.googleapis.com/tensorflow/linux/gpu/tensorflow_gpu-0.12.1-cp27-none-linux_x86_64.whl
+# Python 3.5
+export TF_BINARY_URL=https://storage.googleapis.com/tensorflow/linux/gpu/tensorflow_gpu-0.12.1-cp35-cp35m-linux_x86_64.whl
 
 #Install using pip (you can drop the '--upgrade' if it's a fresh install):
 pip install --upgrade $TF_BINARY_URL
