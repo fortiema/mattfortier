@@ -1,6 +1,6 @@
 Title: Setting Up a Nvidia GPU with Tensorflow in Fedora/RHEL/CentOS
 Date: 2017-01-09 9:00
-Tags: guide gpu cuda fedora tensorflow
+Tags: guide, gpu, cuda, fedora, tensorflow
 Category: Guides
 Slug: nvidia-cuda-tensorflow-fedora-guide
 
