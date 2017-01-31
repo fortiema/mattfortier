@@ -6,11 +6,11 @@ Slug: nlp-intro-pt-1-overview
 
 I realized lately that getting started with Natural Language Processing can be scary, intimidating and/or confusing for a lot of people. I am not quite sure if this is due to the complexity of the task (especially to get meaningful results), the amount of theoretical knowledge needed to come up with a working solution, the sparsity of good resources available out there, or a mixture of all of the above. This prompted me to start writing a series of articles in the hope of helping some of you to take that first step.
 
-My ambitions are humble: I am not an NLP expert, but I feel like I have accumulated enough real-world experience to at least have something meaningful to say about it. With that said, let's get started with a global overview...
+My ambitions are humble: I am not an NLP expert, but I feel like I have accumulated enough real-world experience to at least have something meaningful to say about it. With that said, let's get started today with a simple, global overview...
 
 ## Objective
 
-The business application of Natural Language Processing projects can be quite diverse: spam classification on emails/sms, sentiment analysis on movie reviews or tweets, or document similarity for plagiarism detection on written essays. Whatever it is you are trying to accomplish, the underlying motive stays the same: Extract meaningful and valuable information from text data on a somewhat large scale.
+The end goals of Natural Language Processing projects can be quite diverse: spam classification on emails/sms, sentiment analysis on movie reviews or tweets, or document similarity for plagiarism detection on written essays. Whatever it is you are trying to accomplish, the underlying motive stays the same: Extract meaningful and valuable information from text data on a somewhat large scale.
 
 For this reason, a modern NLP pipeline will always adopt a similar architecture. Understanding this, and seeing where each piece of the puzzle fits in the overall picture will go a long way in helping you come up with solutions.
 
@@ -41,3 +41,5 @@ There is a couple of very well-known, ubiquitous algorithms, and also some lesse
 ![Deep Learning NLP Pipeline]({attach}/images/nlp-intro-pt-1-overview-2.png)
 
 Deep learning is all the rage nowadays, and it is in pass of radically transforming the NLP paradigms used for almost every task. Aside from providing state-of-the-art results, it also present desirable characteristic that we would be foolish to ignore, like being more flexible in regards to multilinguism. I suspect this will be the subject of many articles to come, as DeepNets for NLP are a complex beast to tame, and getting good results often requires a lot of training data (understatement)... and patience!
+
+_*The diagrams I used are inspired by similar ones I saw on [Aylien's blog](http://blog.aylien.com/leveraging-deep-learning-for-multilingual/). They often post very interesting articles over there, I suggest you go take a peek!_
