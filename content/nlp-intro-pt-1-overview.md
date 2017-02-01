@@ -28,13 +28,24 @@ Language detection is often the first stop along the way. Traditional pipelines 
 
 Arguably the most time-consuming part of the process (with data annotation also a contender), this is where you can really set yourself up for good or bad results right of the bat by putting your data in the proper format. Preprocessing can involve as little or as many steps as needed/required/wanted. This often requires good linguistic knowledge and domain knowledge to truly optimize this process. Spending time understanding your data and the context is always a good idea.
 
+Preprocessing for example can include:
+
+- Sentence/word segmentation (a.k.a. "tokenization")
+- Stopwords removal
+- Part-Of-Speech (a.k.a. "POS") tagging
+- Named Entity Recognition
+- Dependency Parsing
+- And many more...
+
 Don't worry, I plan to go much more in details about preprocessing techniques in the second article of the series.
 
 ### Modeling
 
-This is where you take your properly formatted/represented documents and start applying regression/clustering/etc.
+This is where you take your properly curated and formatted documents and start applying regression/clustering/etc. For this, you first need to convert your text data, on which you cannot directly do maths, into a proper vector/matrix representation that will allow you to manipulate them. 
 
-There is a couple of very well-known, ubiquitous algorithms, and also some lesser known ones - This of course depends on the nature of the task you are trying to perform. I'll try to cover as many of them in a subsequent article.
+![Vectorization]({attach}/images/nlp-intro-pt-1-overview-3.png)
+
+As for the modeling task itself, there is a couple of very well-known, ubiquitous algorithms, and also some lesser known ones - This of course depends on the nature of the task you are trying to perform. I'll try to cover as many of them in a subsequent article.
 
 ## The Deep Learning Revolution
 
