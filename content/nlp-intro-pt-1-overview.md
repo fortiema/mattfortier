@@ -35,7 +35,7 @@ Preprocessing for example can include:
 - Part-Of-Speech (a.k.a. "POS") tagging
 - Named Entity Recognition
 - Dependency Parsing
-- And many more...
+- ...
 
 Don't worry, I plan to go much more in details about preprocessing techniques in the second article of the series.
 
