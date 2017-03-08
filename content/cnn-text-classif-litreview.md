@@ -14,7 +14,7 @@ Pretty much the paper that introduced for the first time a viable and simple way
 
 Although they also present a "window model", it's really their Convolutional DeepNet that have our interest here. Using lookup tables, they map each input word to a vector representation that they subsequently train via backpropagation. More than one "feature" can also be used for some tasks, and so fature vectors are simply concatenated together. They follow standard practice of adding a non-linearity and max-pooling to each convolution layer.Padding techniques and max-pooling allows the model to deal with variable-length input sentences, and produce a fixed-length output to feed to the subsequent layers. After the single convolution is performed, data is fed into two fully connected layers with a HardTanh activation function.
 
-![Accuracy of each model]({attach}/images/cnn-text-classif-litreview-3.png)
+![Accuracy of each model]({attach}/images/cnn-text-classif-litreview-4.png)
 
 Resuls from the convolutional model are well within range of the state-of-the-arts in each respective task.
 
@@ -34,7 +34,7 @@ The configuration retained after gridsearch had window sizes 3,4 and 5, dropout 
 
 Kim also experiments with variations of the models where vectors are fined-tuned during training, and one where both static vectors and fine-tuned vectors are used simultaneously in separate channels.
 
-![Accuracy of each model]({attach}/images/cnn-text-classif-litreview-4.png)
+![Accuracy of each model]({attach}/images/cnn-text-classif-litreview-3.png)
 
 Results are quite impressive, with the different variations able to best Paragraph2Vec, RAE and other famous methods (which use more complicated preprocessing or tuning operations) on various benchmark datasets. The addition of Dropout seems to add an absolute accuracy gain of 2~4%. One discussed shortcoming is the tendency of the model to overfit the training data, most likely due to the lack of sufficient training data and the complexity of the model compared to the simplicity of the task at hand.
 
