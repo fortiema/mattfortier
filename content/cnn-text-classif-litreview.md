@@ -72,4 +72,4 @@ Two models were trained - One were lettercase is not taken into consideration, a
 
 ![Testing error of all models]({attach}/images/cnn-text-classif-litreview-6.png)
 
-Compared to most well-known paradigms (word2vec, bow + tfidf, LSTM, etc.), the models presented in this paper are performing comparably on various evaluation datasets (corpuses ranging from 100k to 3M+ documents). Seems like the case-insensitive model performs better.
+Compared to most well-known paradigms (word2vec, bow + tfidf, LSTM, etc.), the models presented in this paper are performing comparably on various evaluation datasets (corpuses ranging from 100k to 3M+ documents). It also seems like the case-insensitive model performs better, which could be explained by better generalisation due to the unecessary complexity of differenciating uppercase letter.
