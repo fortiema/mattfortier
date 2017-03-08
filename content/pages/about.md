@@ -5,4 +5,4 @@ I am currently working for [PatSnap](http://patsnap.com/), a SaaS company disrup
 
 I dab in machine learning, data science and natural language processing to extract meaningful information from enormous amount of text data in multiple languages, and I also design robust and scalable data processing pipelines and APIs. I am constantly on the lookout for new techniques and best practices to improve my craft.
 
-My tools of choice? Python, Jupyter, MongoDB and AWS.
+My tools of choice? Python, Jupyter, MongoDB, ElasticSearch and AWS.

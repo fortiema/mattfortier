@@ -1,7 +1,7 @@
-Title: CNN For Text Classification - Litterature Review
+Title: CNN For Text Classification - Literature Review
 Date: 2017-03-08 12:00
 Tags: litreview cnn deeplearn textclassif
-Category: Litterature Review
+Category: Literature Review
 Slug: cnn-text-classif-litreview
 
 I am currently investing some of my free time into grokking Convolutional Neural Networks and their application to NLP tasks. My first stop was text classification. I thought it would be wasted time not to share them in the open, so I guess if you are short on time and want to get a good glance at the current landscape, this is a good starting point!
