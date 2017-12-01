@@ -5,4 +5,6 @@ I am currently working for [Keatext](http://keatext.ai/), a SaaS company that us
 
 I dab in artificial intelligence, data science and natural language processing to extract meaningful information from enormous amount of text data in multiple languages. I am passionated by designing robust and scalable data-intensive applications that make full use of AI in a scalable, distributed and resilient end-to-end solution. I am constantly on the lookout for new techniques and best practices to improve my craft.
 
+I'm also a certified AWS Solutions Architect.
+
 My weapons of choice? Python, Jupyter, Keras, MongoDB, ElasticSearch and AWS.
