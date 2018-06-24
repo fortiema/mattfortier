@@ -2,10 +2,12 @@ Title: Talks
 
 ## Talks
 **Scaling NLP Models to Real World**
+
 - MTL-NLP Meetup, Montreal Canada, July 2018
 
 
 **Make More with Less (Data)**
+
 - NLUCON, Montreal Canada, March 2018
 
 
