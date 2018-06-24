@@ -1,22 +1,22 @@
 Title: Talks
 
 ## Talks
-**Scaling NLP Models to Real World**
+**Scaling NLP Models to Real World [5.18]**
 
-- MTL-NLP Meetup, Montreal Canada, July 2018
-
-
-**Make More with Less (Data)**
-
-- NLUCON, Montreal Canada, March 2018
+- MTL-NLP Meetup, Montreal Canada
 
 
-**How Keatext Applies AI to Customer Happiness**
+**Make More with Less (Data) [3.18]**
 
-- MILA Deep Learning School, Montreal Canada, March 2018
+- NLUCON, Montreal Canada
 
 
-**Pragmatic Natural Language Processing (NLP)**
+**How Keatext Applies AI to Customer Happiness [3.18]**
 
-- Open Data Shanghai, Shanghai China, December 2016 [[Slides](https://github.com/fortiema/talks/blob/master/opendata2016sh/pragmatic-nlp-opendata2016sh.pdf), [Notebook](https://github.com/fortiema/notebooks/blob/master/Pragmatic%20NLP.ipynb)]
+- MILA Deep Learning School, Montreal Canada
+
+
+**Pragmatic Natural Language Processing (NLP) [12.16]**
+
+- Open Data Shanghai, Shanghai China [[Slides](https://github.com/fortiema/talks/blob/master/opendata2016sh/pragmatic-nlp-opendata2016sh.pdf), [Notebook](https://github.com/fortiema/notebooks/blob/master/Pragmatic%20NLP.ipynb)]
 
