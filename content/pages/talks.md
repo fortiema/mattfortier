@@ -11,7 +11,7 @@ Title: Talks
 - NLUCON, Montreal Canada
 
 
-**How Keatext Applies AI to Customer Happiness [3.18]**
+**Keatext - AI for Customer Happiness [3.18]**
 
 - MILA Deep Learning School, Montreal Canada
 
