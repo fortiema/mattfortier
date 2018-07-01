@@ -49,7 +49,7 @@ NAVIGATION = [
     # You probably want to fill these in so they point to your user pages
     {'site': 'twitter', 'user': '', 'url': 'https://twitter.com/mathieufortier'},
     {'site': 'github', 'user': '', 'url': 'https://github.com/fortiema'},
-    {'site': 'linkedin', 'user': '', 'url': 'http://linkedin.com/in/mattfortier-patsnap'},
+    {'site': 'linkedin', 'user': '', 'url': 'http://linkedin.com/in/mattfortier-keatext'},
 ]
 
 TWITTER_NAME = "mathieufortier"
