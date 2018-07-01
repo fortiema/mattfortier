@@ -1,7 +1,7 @@
 Title: Talks
 
 ## Talks
-**Scaling NLP Models to Real World [7.18]**
+**Scale NLP to Real World [7.18]**
 
 - MTL-NLP Meetup, Montreal Canada
 
